@@ -5,7 +5,8 @@
   Sirve para aplicar commits en la parte superir de otra base tip.
   Su sipnosis se representa de la siguiente manera:
 
-        git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]                     [<upstream> [<branch>]]
+	git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]
+	    [<upstream> [<branch>]]
 	git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]
 	    --root [<branch>]
 	git rebase --continue | --skip | --abort | --edit-todo
