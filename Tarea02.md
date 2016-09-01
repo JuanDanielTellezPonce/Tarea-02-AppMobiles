@@ -5,10 +5,10 @@
   Sirve para aplicar commits en la parte superir de otra base tip.
   Su sipnosis se representa de la siguiente manera:
 
-        git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]
-	  	[<upstream> [<branch>]]
-	git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]         
-			--root [<branch>]              					            git rebase --continue | --skip | --abort | --edit-todo
+        git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]                     [<upstream> [<branch>]]
+	git rebase [-i | --interactive] [options] [--exec <cmd>] [--onto <newbase>]
+	    --root [<branch>]
+	git rebase --continue | --skip | --abort | --edit-todo
 
   Si no se especifica <branch>, "git rebase" llevará a cabo una automática con "git
   checkout <branch>" antes de hacer cualquier otra cosa. De lo contrario, permanece
